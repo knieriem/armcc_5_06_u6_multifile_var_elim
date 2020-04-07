@@ -1,0 +1,14 @@
+;#<FEEDBACK># ARM Linker, 5060750: Last Updated: Tue Apr 07 18:34:03 2020
+;VERSION 0.2
+;FILE main.o
+;FILE partly_used.o
+fn_unused5 <= USED 0
+fn_used <= LINKER_INLINED
+;FILE unused.o
+fn_unused <= USED 0
+;FILE unused2.o
+fn_unused2 <= USED 0
+;FILE unused3.o
+fn_unused3 <= USED 0
+;FILE unused4.o
+fn_unused4 <= USED 0
